@@ -1,0 +1,34 @@
+@use './variables' as *;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: $dark-bg;
+  color: $text-light;
+  font-family: 'Poppins', sans-serif;
+}
+
+section {
+  padding: 100px 10%;
+}
+
+h2, h3 {
+  color: $primary;   /* ← tirei o h1 daqui */
+}
+
+p {
+  opacity: 0.8;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}

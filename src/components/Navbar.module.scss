@@ -1,0 +1,43 @@
+@import '../styles/variables';
+
+.nav {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  padding: 20px 10%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: $dark-bg;
+  z-index: 1000;
+  border-bottom: 1px solid $border;
+}
+
+.logo {
+  font-weight: bold;
+  color: $primary;
+}
+
+.menu {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
+.link {
+  cursor: pointer;
+  transition: 0.3s;
+
+  &:hover {
+    color: $primary;
+  }
+}
+
+.button {
+  background: $primary;
+  border: none;
+  padding: 6px 12px;
+  border-radius: 6px;
+  color: white;
+  cursor: pointer;
+}
